@@ -20,3 +20,9 @@ body {
     line-height: 65px;
     padding: 20px;
 }
+
+.text {
+    color:#adb5bd;
+    font-family: Montserrat, sans-serif;
+    padding: 20px;
+}
