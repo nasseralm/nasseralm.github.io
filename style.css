@@ -1,0 +1,22 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+.main-title {
+    color: #e5e5e5;
+    font-family: Lato, sans-serif;
+    font-size: 5em;
+    font-weight: 900;
+    letter-spacing: -3px;
+    line-height: 65px;
+    padding: 20px;
+}
