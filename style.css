@@ -1,28 +1,81 @@
-html {
-    height: 100%;
-}
 body {
-    height: 100%;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background: #0F2027;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    }
-
-.main-title {
-    color: #e5e5e5;
-    font-family: Lato, sans-serif;
-    font-size: 5em;
-    font-weight: 900;
-    letter-spacing: -3px;
-    line-height: 65px;
-    padding: 20px;
+  background-color: rgba(224 , 239 , 241 , 1);
+  font-family: Work Sans, Helvetica, Arial, sans-serif;
+  color: rgba(3 , 4 , 94 , 1);
 }
 
-.text {
-    color:#adb5bd;
-    font-family: Montserrat, sans-serif;
-    padding: 20px;
+header {
+  background-color: rgba(3 , 4 , 94 , 1);
+  size: 100%;
+  padding: 50px;
+  margin: auto;
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+  color: rgba(113 , 146 , 151 , 1);
+  font-weight: 100;
+  font-style: italic;
+}
+
+.selected {
+  background-color: gray;
+  color: rgba(2 , 62 , 138 , 1);
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 4px;
+}
+
+.button {
+  background-color: rgba(2 , 62 , 138 , 1);
+  color: white;
+  padding: 2px 10px 3px;
+  border: 2px solid rgba(2 , 62 , 138 , 1);
+  border-radius: 15px;
+  margin: 2px;
+}
+
+.button:hover {
+  background-color: rgba(3 , 4 , 94 , 1);
+  color: white;
+  padding: 2px 10px 3px;
+  border: 2px solid rgba(2 , 62 , 138 , 1);
+  border-radius: 15px;
+}
+
+#content {
+  max-width: 500px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: auto;
+  text-align: center;
+}
+
+#title {
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+
+#texto-tarefa {
+  min-height: 25px;
+  min-width: 300px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+#texto-tarefa:hover {
+  border: 2px solid rgba(2 , 62 , 138 , 1);
+}
+
+#lista-tarefas {
+  text-align: left;
+  background-color: white;
+  border-radius: 15px;
+  margin: 5px;
+  line-height: 1.5em;
+  box-shadow: 2px 2px rgba(212 , 232 , 235 , 1);
 }
